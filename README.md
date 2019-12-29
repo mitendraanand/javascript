@@ -6,3 +6,5 @@
 
 3. budget-webapp project: Design, Archietecture, Module Pattern, IIFE, Clousres, DOM manipulation, Event Delegation, Event Bubbling, DOM traversal
 
+4. ES6 concepts: let and const, Blocks and IIFEs, Strings, Arrow functions, Destructuring, Arrays, Spread operator, Rest parameters, Default parameters, Maps, Classes and subclasses
+
