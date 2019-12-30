@@ -96,7 +96,7 @@
         // getRecipesAW().then(result => console.log(`${result} is the best ever!`));
 
         function getWeather(woeid) {
-            fetch(`https://crossorigin.me/https://www.metaweather.com/api/location/${woeid}/`)
+            fetch(`https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/${woeid}/`)
             .then(result => {
                 // console.log(result);
                 return result.json();
@@ -114,7 +114,7 @@
 
         async function getWeatherAW(woeid) {
             try {
-                const result = await fetch(`https://crossorigin.me/https://www.metaweather.com/api/location/${woeid}/`);
+                const result = await fetch(`https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/${woeid}/`);
                 const data = await result.json();
                 const tomorrow = data.consolidated_weather[1];
                 console.log(`Temperatures tomorrow in ${data.title} stay between ${tomorrow.min_temp} and ${tomorrow.max_temp}.`);
