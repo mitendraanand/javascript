@@ -12,3 +12,5 @@
 
 6. devops tools: added node.js, npm, package.json, webpack, webpack-dev-server, npm run, webpack-dev-server for auto refresh and copy of html in dist, npm run start cretes the bundle.js via webpack, babel, polyfill
 
+7. recipe-mvc-app project:
+
