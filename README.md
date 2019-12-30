@@ -8,3 +8,5 @@
 
 4. ES6 concepts: let and const, Blocks and IIFEs, Strings, Arrow functions, Destructuring, Arrays, Spread operator, Rest parameters, Default parameters, Maps, Classes and subclasses
 
+5. async-js concepts: setTimeout(), callback hell, Promise-Prducer/Consumer/Executor, .then/.catch, async/await
+
