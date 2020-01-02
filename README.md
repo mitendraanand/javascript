@@ -12,5 +12,6 @@
 
 6. devops tools: added node.js, npm, package.json, webpack, webpack-dev-server, npm run, webpack-dev-server for auto refresh and copy of html in dist, npm run start cretes the bundle.js via webpack, babel, polyfill
 
-7. recipe-mvc-app project:
+7. recipe-mvc-app project: Data model using ES6 classes, application state, Advanced DOM manipulation techniques, Use ES6 template strings to render entire HTML components, Create loading spinner, Use .closest methond for easier event handler, use data-* attributes in HTML5, Read data from page URL, respond to hashchange event, add same eventlistener to multiple events, Use array methods like map, slice, findIndex and includes, use eval(), uniqueID from external package, Array.slice and Array.splice, localStorage API for get/set/remove.
+
 
