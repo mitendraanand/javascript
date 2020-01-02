@@ -4,6 +4,8 @@ import { Fraction } from 'fractional';
 export const clearRecipe = () => {
     elements.recipe.innerHTML = '';
 };
+
+
 const formatCount = count => {
     if (count) {
         // count = 2.5 --> 5/2 --> 2 1/2
